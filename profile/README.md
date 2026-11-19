@@ -54,6 +54,16 @@ Sign up and you get sandbox keys in about two minutes. You can simulate paid, ex
 - **Idempotency keys** on every money-moving request, so a retry never charges twice
 - **Sandbox and production** kept apart, with the same API in both
 
+### Official SDKs
+
+| SDK | Language | Status |
+|---|---|---|
+| **zeny-node** | Node.js and TypeScript | Coming soon |
+| **zeny-php** | PHP | Coming soon |
+| **zeny-go** | Go | Coming soon |
+
+Until the SDKs ship, any HTTP client works against the REST API. Want to know when they're out? Watch this organization or email [hello@usezeny.com](mailto:hello@usezeny.com).
+
 The API reference is in the dashboard under **Help → Docs**. Merchant guides are public at [docs.usezeny.com](https://docs.usezeny.com).
 
 ## Trust and safety
