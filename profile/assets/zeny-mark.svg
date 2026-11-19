@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"
+     role="img" aria-labelledby="zeny-mark-title zeny-mark-desc">
+  <title id="zeny-mark-title">Zeny mark</title>
+  <desc id="zeny-mark-desc">Zen coin: a Volt lime coin split by a Z-shaped cut. Favicon and app-icon use.</desc>
+
+  <style>
+    .zy-mark { fill: #C8F031; }
+    .zy-cut  { stroke: #0E0F0C; }
+  </style>
+
+  <circle class="zy-mark" cx="50" cy="50" r="42" />
+  <path class="zy-cut" d="M4 38 H58 L42 62 H96" fill="none"
+        stroke-width="7" stroke-linejoin="round" />
+</svg>

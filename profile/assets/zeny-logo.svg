@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="300" height="72"
+     role="img" aria-labelledby="zeny-title zeny-desc">
+  <title id="zeny-title">Zeny</title>
+  <desc id="zeny-desc">Zeny lockup: the Zen coin mark (a coin split by a Z cut) beside the lowercase wordmark.</desc>
+
+  <!--
+    Two explicit palettes so the mark reads on both GitHub themes.
+    Mark stays Volt lime; the wordmark and cut flip to the theme's text color.
+    No background rect: the artwork sits transparently on the page.
+  -->
+  <style>
+    .zy-mark { fill: #C8F031; }
+    .zy-cut  { stroke: #0E0F0C; }
+    .zy-text { fill: #0E0F0C; font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif; font-weight: 700; letter-spacing: -0.055em; }
+    @media (prefers-color-scheme: dark) {
+      .zy-cut  { stroke: #0E0F0C; }
+      .zy-text { fill: #F2F3EE; }
+    }
+  </style>
+
+  <!-- Mark: Zen coin — coin split by a Z-shaped cut -->
+  <g transform="translate(0, 6)">
+    <circle class="zy-mark" cx="30" cy="30" r="25.2" />
+    <path class="zy-cut" d="M2.4 22.8 H34.8 L25.2 37.2 H57.6" fill="none"
+          stroke-width="4.2" stroke-linejoin="round" />
+  </g>
+
+  <!-- Wordmark: live text, falls back to UI sans where Space Grotesk is absent -->
+  <text class="zy-text" x="72" y="49" font-size="46">zeny</text>
+</svg>
