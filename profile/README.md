@@ -56,13 +56,13 @@ Sign up and you get sandbox keys in about two minutes. You can simulate paid, ex
 
 ### Official SDKs
 
-| SDK | Language | Status |
+| SDK | Language | Install |
 |---|---|---|
-| **zeny-node** | Node.js and TypeScript | Coming soon |
-| **zeny-php** | PHP | Coming soon |
+| **[@usezeny/node](https://www.npmjs.com/package/@usezeny/node)** | Node.js and TypeScript | `bun add @usezeny/node` |
+| **[usezeny/laravel](https://github.com/Zeny-Pay/zeny-laravel-sdk)** | PHP 8.2+ and Laravel 12/13 | `composer require usezeny/laravel` |
 | **zeny-go** | Go | Coming soon |
 
-Until the SDKs ship, any HTTP client works against the REST API. Want to know when they're out? Watch this organization or email [hello@usezeny.com](mailto:hello@usezeny.com).
+Both SDKs cover payment links, signed webhook verification and automatic retries that never charge twice. Any HTTP client works against the REST API too. Want to know when the Go SDK is out? Watch this organization or email [hello@usezeny.com](mailto:hello@usezeny.com).
 
 The API reference is in the dashboard under **Help → Docs**. Merchant guides are public at [docs.usezeny.com](https://docs.usezeny.com).
 
